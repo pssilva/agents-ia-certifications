@@ -1,6 +1,6 @@
 # Claude Certifications: Todos
 
-Se trata de um projeto prático prova de conceito - POC para deixar pegadas digitais e um comprometimento público para aplicar o foco e disciplia e com isso  ser próativo para os processos seletivos onde as equipes técnicas de recrutadores tenham condições e evidências para verificar se o meu perfil pode atender as necessidades das oportunidades.
+Se trata de um projeto prático prova de conceito - POC para deixar pegadas digitais e um comprometimento público para aplicar o foco e disciplina e com isso  ser pró-ativo para os processos seletivos onde as equipes técnicas de recrutadores tenham condições e evidências para verificar se o meu perfil pode atender as necessidades das oportunidades.
 
 ## Visão do Projeto
 
@@ -158,13 +158,11 @@ Tomando como base [Exam 1Z0-831: Java SE 25 Developer Professional](https://myle
 
 Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacinal do dia a dia usando empirismo (colocar realmente em prática os conheicmentos abstratos):
 
-<img src="../docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
+<img src="docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
 
 ---
 
-<a href="#FOWLER-Martin" id="da-analise-exploratoria">
-<img src="../docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
-</a>
+<img src="docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
 
 ---
 
@@ -204,19 +202,6 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](LICE
 
 ---
 
-## 🎁 Expressões de Gratidão
-
-Primeiro confesso aqui publicamente a minha gratidão ao Criado! E reconheço Jesus Cristo como o meu Senhor e Salvador! E que tudo é para honra e glória do Altissímo! Amém!! 📢
-
-Expresso gratidão pelas contribuções para comunidade aos seguintes Canais do Youtube:
-
-- [Devs JavaGirl BR (@DevsJavaGirlBR)](https://www.youtube.com/@DevsJavaGirlBR)
-- [Giuliana Bezerra (@giulianabezerra)](https://www.youtube.com/@giulianabezerra)
-- [Fernanda Kipper | Dev (@kipperdev)](https://www.youtube.com/@kipperdev)
-- [Loiane Groner (@loianegroner)](https://www.youtube.com/@loianegroner)
-- [RinaldoDev (@rinaldodev)](https://www.youtube.com/@rinaldodev)
-
----
 
 ## Referências Usadas
 
@@ -227,7 +212,7 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ---
 
 <p align="justify">
-[<a id="BOYARSKY-Jeanne">BOYARSKY, Jeanne</a>]; [<a id="SELIKOFF-Scott">SELIKOFF, Scott</a>]: OCP Claude® Certified Professional Java® SE 21 Developer: Study Guide Exam 1Z0-830 ISBNs: 9781394286614 (paperback), 9781394286638 (ePDF), 9781394286621 (ePub). Published by John Wiley & Sons, Inc., Hoboken, New Jersey. Published simultaneously in Canada and the United Kingdom. 1040 pages. 1st Edition,  November 27, 2024 Disponível em: < <a href="https://a.co/d/0alQOByp">https://a.co/d/0alQOByp</a>>.Acesso em: 16 mai. 2026.
+[<a id="Pranshi-Verma">Pranshi Verma</a>]: Claude Certified Developer – Foundations (CCDV-F): The Complete Study Guide: 400 Exam-Ready Scenario Questions, Full Blueprint Coverage, and a Proven Study ... the CCDV-F Certification (English Edition) ASIN: B0HFJLL88D. 1381 páginas. 1st Edition,  17 agosto 2026 Disponível em: < <a href="https://a.co/d/0fDzDFIW">https://a.co/d/0fDzDFIW</a>>.Acesso em: 7 out. 2026.
 </p>
 
 ---
