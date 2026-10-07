@@ -1,0 +1,19 @@
+.env
+target/
+web/node_modules/
+web/dist/
+e2e/node_modules/
+# cache gerado pelo render das skills do BMad
+_bmad/render/
+# instalações de skills por ferramenta (reinstaláveis pelo skills-lock.json)
+.agent/
+.agents/
+.claude/
+.goose/
+.hermes/
+.kiro/
+.opencode/
+.windsurf/
+# repositório à parte, sem relação com o projeto
+claude-desktop-fedora/
+.ideia/
