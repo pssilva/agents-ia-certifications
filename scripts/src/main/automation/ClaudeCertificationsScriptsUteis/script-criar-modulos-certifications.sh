@@ -66,8 +66,19 @@ for item in "${modulosFilhos[@]}"; do
     mkdir -p "${ARTIFACT_ID}"
     mkdir -p "${ARTIFACT_ID}/docs/evidencias/imgs"
     touch "${ARTIFACT_ID}/docs/evidencias/imgs/.gitkeep"
+
+    mkdir -p "${ARTIFACT_ID}/src/main/java"
+    touch "${ARTIFACT_ID}/src/main/java/.gitkeep"
+    
+    mkdir -p "${ARTIFACT_ID}/src/main/python"
+    touch "${ARTIFACT_ID}/src/main/python/.gitkeep"
+    
+    mkdir -p "${ARTIFACT_ID}/src/main/typescript"
+    touch "${ARTIFACT_ID}/src/main/typescript/.gitkeep"
+
     mkdir -p "${ARTIFACT_ID}/docs/evidencias/audios"
     touch "${ARTIFACT_ID}/docs/evidencias/audios/.gitkeep"
+
     touch "${ARTIFACT_ID}/docs/README.md"
 
 	else
