@@ -11,38 +11,6 @@
 #########################################################
 
 #########################################################
-#
-# Describe: 
-# Referencia: 
-#
-#########################################################
-function ClaudeCertificationsScriptsUteis.OCPTrainingLabStructure(){
-
-    export ARTIFACT_ID_PARENT="oracle-certifications"
-    export ARTIFACT_ID="ccdvf-claude-developer"
-    export WORK_PATH="${HOME}/projetos/${ARTIFACT_ID_PARENT}/${ARTIFACT_ID}"
-    export OCP_STUDY_PATH="${WORK_PATH}/docs/ocp-study"
-    
-	cd "${WORK_PATH}"
-
-	if [ ! -d "${OCP_STUDY_PATH}" ]
-	then
-		
-		mkdir -p "${OCP_STUDY_PATH}"
-		touch "${OCP_STUDY_PATH}/knowledge-matrix.md"
-		touch "${OCP_STUDY_PATH}/error-log.md"
-		touch "${OCP_STUDY_PATH}/cheat-sheet.md"
-
-	fi
-	echo -e "\n\n"
-	read -t 5 -p "Favor aguarde um momento!!    .... 5 segundos somente ..."
-	echo -e "\n\n"
-	##############################################
-
-}
-export -f ClaudeCertificationsScriptsUteis.OCPTrainingLabStructure
-
-#########################################################
 
 
 
@@ -57,16 +25,16 @@ function ClaudeCertificationsScriptsUteis.CriarStructureByConceito(){
     export NOME_MODULO="$1"
     export CONCEITO="$2"
 
-    export ARTIFACT_ID_PARENT="oracle-certifications"
+    export ARTIFACT_ID_PARENT="agents-ia-certifications"
     export ARTIFACT_ID="ccdvf-claude-developer"
     export WORK_PATH="${HOME}/projetos/${ARTIFACT_ID_PARENT}/${ARTIFACT_ID}"
-    export OCP_STUDY_PATH="${WORK_PATH}/docs/ocp-study"
+    export STUDY_PATH="${WORK_PATH}/docs/estudos"
     
 	export README_TEMPLATE=$(cat <<EOF
 Módulo: {{NOME_MODULO}} 
 --------
 
-Para este módulo usaremos como base de referência o Livro: [OCP Claude Certified Professional Java SE 21 Developer: Study Guide Exam 1Z0-830](https://a.co/d/0alQOByp).
+Para este módulo usaremos como base de referência o Livro: [Claude Certified Developer – Foundations (CCDV-F)](https://anthropic-partners.skilljar.com/claude-certified-developer-foundations-certification).
 
 ## Objetivo
 
@@ -130,10 +98,10 @@ Aplicando o protocolo Feynman de 60 minutos especificamente para o CONCEITO: {{C
 
 CONCEITO: {{CONCEITO}}
 
-Base referêncial Livro: [OCP Claude Certified Professional Java SE 21 Developer: Study Guide Exam 1Z0-830](https://a.co/d/0alQOByp).
+Base referêncial Livro: [Claude Certified Developer – Foundations (CCDV-F)](https://anthropic-partners.skilljar.com/claude-certified-developer-foundations-certification).
 
 \`\`\`
-OCP Claude Certified Professional Java SE 21 Developer
+Claude Certified Developer – Foundations (CCDV-F)
 » Capítulo NN ■ ??????????
 » » ?????????? ...
 » » » ?????????? ...
@@ -285,13 +253,13 @@ EOF
 
 	echo "##############################################"
 	echo -e "\n\n"
-	if [ ! -d "${OCP_STUDY_PATH}" ]
+	if [ ! -d "${STUDY_PATH}" ]
 	then
 		
-		mkdir -p "${OCP_STUDY_PATH}"
-		touch "${OCP_STUDY_PATH}/knowledge-matrix.md"
-		touch "${OCP_STUDY_PATH}/error-log.md"
-		touch "${OCP_STUDY_PATH}/cheat-sheet.md"
+		mkdir -p "${STUDY_PATH}"
+		touch "${STUDY_PATH}/knowledge-matrix.md"
+		touch "${STUDY_PATH}/error-log.md"
+		touch "${STUDY_PATH}/cheat-sheet.md"
 
 	fi
 	echo -e "\n\n"

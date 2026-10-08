@@ -18,7 +18,7 @@
 #########################################################
 function ClaudeCertificationsScriptsUteis.checkAmbienteSDK(){
 
-    export ARTIFACT_ID_PARENT="oracle-certifications"
+    export ARTIFACT_ID_PARENT="ccdvf-claude-developer"
     export ARTIFACT_ID="ccdvf-claude-developer"
     cd "${HOME}/projetos/${ARTIFACT_ID_PARENT}/${ARTIFACT_ID}"
 

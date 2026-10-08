@@ -2,7 +2,7 @@
 
 
 
-export ARTIFACT_ID="oracle-certifications"
+export ARTIFACT_ID="ccdvf-claude-developer"
 export TOOL_NAME="ClaudeCertificationsScriptsUteis"
 export SCRIPT_PATH="${HOME}/projetos/${ARTIFACT_ID}/scripts"
 export AUTOMATION_PATH="${SCRIPT_PATH}/src/main/automation"
@@ -39,7 +39,7 @@ ClaudeCertificationsScriptsUteis.CriarStructureByConceito "09-io-api" "IO API e 
 # ClaudeCertificationsScriptsUteis.CriarStructureByConceito "14-operators" "Operações"
 
 # ClaudeCertificationsScriptsUteis.OCPTrainingLabStructure
-#source /home/pssilva/projetos/oracle-certifications/scripts/src/main/automation/ClaudeCertificationsScriptsUteis/claude-training-lab.sh
+#source /home/pssilva/projetos/ccdvf-claude-developer/scripts/src/main/automation/ClaudeCertificationsScriptsUteis/claude-training-lab.sh
 
 echo "${TOOL_PATH}"
 
