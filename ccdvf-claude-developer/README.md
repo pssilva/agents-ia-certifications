@@ -131,7 +131,7 @@ idea .
 
 ## 🔩 Débitos Técnicos
 
-Aqui temos uma lista do que idenficamos com status de pendente:
+Aqui temos uma lista do que identificamos com status de pendente:
 
 ### Funcionalidades Aplicação
 
@@ -141,7 +141,18 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 
 ### Tópicos da Certificação
 
-Tomando como base [Exam 1Z0-831: Java SE 25 Developer Professional](https://mylearn.oracle.com/ou/exam/java-se-25-developer-professional-1z0-831/40805/161532/270890), temos: 
+Tomando como base [Claude Certified Developer – Foundations (CCDV-F)](https://anthropic-partners.skilljar.com/claude-certified-developer-foundations-certification), temos: 
+
+- Domínios: 
+  - [ ] 1 Agents and Workflows 14.7%
+  - [ ] 2 Applications and Integration 33.1%
+  - [ ] 3 Claude Code 3.1%
+  - [ ] 4 Eval, Testing, and Debugging 2.6%
+  - [ ] 5 Model Selection and Optimization 16.8%
+  - [ ] 6 Prompt and Context Engineering 11.0%
+  - [ ] 7 Security and Safety 8.1%
+  - [ ] 8 Tools and MCPs 10.6%
+
 
 ### Atividades - DevOps
 
@@ -178,9 +189,8 @@ Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacinal d
 
 ---
 
-<a href="#FOWLER-Martin" id="da-analise-exploratoria">
 <img src="../docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
-</a>
+
 
 ---
 
